@@ -44,8 +44,7 @@
             margin-bottom: 0px;
             margin-right: 0px;
         }
-    </style>
-    <style>
+
         #nav {
             height: 840px;
             background: #ff6a00
@@ -293,8 +292,7 @@
                     <div class="colums">
                         <div id="logo">
                             <a href="./index.html">
-                                <img src="img/logo.png" />                              
-                                
+                                <img src="img/logo.png" />
                             </a>
                         </div>
                     </div>
@@ -401,37 +399,37 @@
                 </table>
             </div>
         </div>
-    <div id="footer">
-        <div class="footerWidgets">
-            <table class="footplane">
-                <tr>
-                    <td>
-                        <div>25</div>
-                        <div class="dividerCenter"></div>
-                        <h6 class="text-center">東部加盟店</h6>
-                    </td>
-                    <td>
-                        <div>14</div>
-                        <div class="dividerCenter"></div>
-                        <h6 class="text-center">中部加盟店</h6>
-                    </td>
-                    <td>
-                        <div>43</div>
-                        <div class="dividerCenter"></div>
-                        <h6 class="text-center">南部加盟店</h6>
-                    </td>
-                    <td>
-                        <div>4</div>
-                        <div class="dividerCenter"></div>
-                        <h6 class="text-center">東部加盟店</h6>
-                    </td>
-                </tr>
-            </table>
+        <div id="footer">
+            <div class="footerWidgets">
+                <table class="footplane">
+                    <tr>
+                        <td>
+                            <div>25</div>
+                            <div class="dividerCenter"></div>
+                            <h6 class="text-center">東部加盟店</h6>
+                        </td>
+                        <td>
+                            <div>14</div>
+                            <div class="dividerCenter"></div>
+                            <h6 class="text-center">中部加盟店</h6>
+                        </td>
+                        <td>
+                            <div>43</div>
+                            <div class="dividerCenter"></div>
+                            <h6 class="text-center">南部加盟店</h6>
+                        </td>
+                        <td>
+                            <div>4</div>
+                            <div class="dividerCenter"></div>
+                            <h6 class="text-center">東部加盟店</h6>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="copyrights">
+            </div>
+            <!--copyrights結束-->
         </div>
-        <div class="copyrights">
-        </div>
-        <!--copyrights結束-->
-    </div>
     </form>
 </body>
 </html>
