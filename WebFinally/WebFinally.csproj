@@ -86,6 +86,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Web.config.rongdev" />
+    <None Include="Web.config.Debug.rongdev">
+      <DependentUpon>Web.config.rongdev</DependentUpon>
+    </None>
+    <None Include="Web.config.Release.rongdev">
+      <DependentUpon>Web.config.rongdev</DependentUpon>
+    </None>
     <None Include="Web.config.chiudev" />
     <None Include="Web.config.Debug.chiudev">
       <DependentUpon>Web.config.chiudev</DependentUpon>
