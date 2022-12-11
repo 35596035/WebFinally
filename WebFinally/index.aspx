@@ -54,7 +54,8 @@
                     <div class="colums">
                         <div id="logo">
                             <a href="./index.html">
-                                <img src="img/logo.png" />
+                                <img src="img/logo.png" />                              
+                                
                             </a>
                         </div>
                     </div>
