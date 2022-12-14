@@ -12,9 +12,9 @@
     <meta name="generator" content="Hugo 0.104.2">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/grid/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="totalstyle.css" rel="stylesheet">
+    <link href="usecss/totalstyle.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="grid.css" rel="stylesheet">
+    <link href="usecss/grid.css" rel="stylesheet">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
         <title></title>

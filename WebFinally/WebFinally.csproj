@@ -83,6 +83,12 @@
     <Content Include="menus.aspx" />
     <Content Include="point.aspx" />
     <Content Include="totalstyle.css" />
+    <Content Include="usecss\carousel.css" />
+    <Content Include="usecss\carousel.rtl.css" />
+    <Content Include="usecss\form-validation.css" />
+    <Content Include="usecss\grid.css" />
+    <Content Include="usecss\headers.css" />
+    <Content Include="usecss\totalstyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
