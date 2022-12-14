@@ -72,17 +72,11 @@
     <Content Include="assets\dist\css\bootstrap.min.css" />
     <Content Include="assets\dist\css\bootstrap.rtl.min.css" />
     <Content Include="assets\dist\js\bootstrap.bundle.min.js" />
-    <Content Include="carousel.css" />
-    <Content Include="carousel.rtl.css" />
     <Content Include="customer.aspx" />
-    <Content Include="form-validation.css" />
     <Content Include="Global.asax" />
-    <Content Include="grid.css" />
-    <Content Include="headers.css" />
     <Content Include="img\logo.png" />
     <Content Include="menus.aspx" />
     <Content Include="point.aspx" />
-    <Content Include="totalstyle.css" />
     <Content Include="usecss\carousel.css" />
     <Content Include="usecss\carousel.rtl.css" />
     <Content Include="usecss\form-validation.css" />
