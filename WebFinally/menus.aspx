@@ -150,16 +150,14 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        名店復刻
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-2'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
                                     </div>
                                 </div>
                                 <!--引用菜單中間區塊結束-->
