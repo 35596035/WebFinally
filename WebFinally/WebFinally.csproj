@@ -82,6 +82,7 @@
     <Content Include="usecss\form-validation.css" />
     <Content Include="usecss\grid.css" />
     <Content Include="usecss\headers.css" />
+    <Content Include="usecss\style-tab.css" />
     <Content Include="usecss\totalstyle.css" />
     <Content Include="Web.config" />
   </ItemGroup>
