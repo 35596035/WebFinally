@@ -23,7 +23,6 @@
                                 <div class="col-sm-6">
                                     <label for="firstName" class="form-label">First name</label>
                                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="請輸入FirstName" CssClass="form-label" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
-                                    
                                     <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control"></asp:TextBox>
                                     <div class="invalid-feedback">
                                         Valid first name is required.
