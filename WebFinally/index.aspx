@@ -65,7 +65,8 @@
             <div class="col-md-13">
                 <div class="h-100 p-5 bg-light border rounded-3"
                     style="margin: auto; text-align: center; background-color: rgb(255, 198, 11);">
-                    <button class="btn btn-outline-secondary" type="button">豚將日本拉麵菜單介紹</button>
+                    <input class="btn btn-outline-secondary" type="button" value="豚將日本拉麵菜單介紹" onclick="location.href='menus.aspx'">
+                    <%--<button class="btn btn-outline-secondary" type="button">豚將日本拉麵菜單介紹</button>--%>
                 </div>
             </div>
         </div>
