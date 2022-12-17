@@ -182,16 +182,15 @@
 
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        經典特仕
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-3'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -208,16 +207,15 @@
 
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        本格元祖
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-4'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -234,16 +232,15 @@
 
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        究極海味
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-5'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -260,16 +257,15 @@
 
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        和風烏龍麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-6'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -286,16 +282,15 @@
 
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                         超值丼販
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-7'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -312,16 +307,15 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                         名古屋夢幻雞翅
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-8'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -338,16 +332,15 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        自慢單品
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-9'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -364,16 +357,15 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        炸物系列
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-10'">
-                                                View</button>
+                                                詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -390,16 +382,15 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       飲品甜點
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-outline-secondary"
                                                 onclick="window.location.href='#tab-11'">
-                                                View</button>
+                                               詳細菜單介紹</button>
                                         </div>
-                                        <small class="text-muted">9 mins</small>
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -430,8 +421,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       黑蒜豚骨拉麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -450,8 +440,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        東京麻婆豆腐激辛拉麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -470,8 +459,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        大蒜豚骨拉麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -490,8 +478,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        十勝牛乳
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -510,8 +497,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        赤虎拉麵<br> 
+                                        濃郁豚骨拉麵湯頭，搭配上秘製辣醬，在湯頭及視覺上增加豐富層次感。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -530,8 +517,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       夜虎拉麵<br> 
+                                        豚骨拉麵中完美無瑕的極上美味，搭配日本柴魚昆布等元素，湯頭更完美呈現。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -550,8 +537,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        松露雞白湯拉麵<br> 
+                                        新潮流系拉麵日西融合，法式松露風味加上日式豚骨湯頭，加上雞胸肉配料交譜出奢華濃醇又清爽的全新美味
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -584,8 +571,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        照燒雞排豚骨拉麵<br>
+                                        濃醇王道豚骨拉麵加上大塊照燒雞排，將軍級的豪華雙重享受
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -604,8 +591,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        辣味噌豚骨<br>
+                                        北海道代表味噌與關東代表豚骨兩大美味集盛於一碗，湯頭濃醇美味加倍再加倍!
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -624,8 +611,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        力士肉肉多多拉麵<br>
+                                        無肉不歡族首選!，加倍份量的叉燒肉片搭配豚骨湯頭，一碗拉麵滿足感滿分!!
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -644,8 +631,9 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        火焰叉燒拉麵<br>
+                                        重口味族福音!塗上美味燒烤醬汁的烤叉燒堆疊成一座肉山<br>
+                                        大口吃肉大口吃麵，暢快無比。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -664,8 +652,10 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        特濃豚骨拉麵<br>
+                                        招牌豚骨湯頭再進化!<br>
+                                        正宗九州厚實口味，是最具代表性的拉麵<br>
+                                        徹底滿足熱愛正宗日本豚骨湯頭的拉麵饕客。<br>
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -684,8 +674,10 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       特濃地獄豚骨拉麵<br>
+                                        豚骨拉麵系列的新體驗<br>
+                                        在濃郁的豚骨湯頭裡再加入秘製四川麻辣醬，讓整體的層次厚實感再升級。<br>
+                                        辣味與辛香味讓豚骨湯頭有著更深一層的濃醇複雜滋味，口味提升到一個全新的境界!
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -704,8 +696,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        特濃味噌拉麵<br>
+                                        經典不敗味噌拉麵濃度加倍，原本溫和濃醇的味噌，由淡雅風味變身為濃烈香醇的極上味噌拉麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -737,8 +729,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        醬油拉麵<br>
+                                        淡麗系醬油風味，使用雞骨、醬油與雞油的黃金組合。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -756,8 +748,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        招牌豚骨拉麵<br>
+                                        以醬油為主的豚骨拉麵，將醬油添加在精選大骨熬煮的高湯，是豚將最具代表的風味。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -775,8 +767,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       赤鬼担担拉麵<br>
+                                       日本人將中國的担担麵「改良」而成，將豆瓣醬、碎豬肉等加入日式高湯之中，呈現出獨特日本系的担担麵。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -794,8 +786,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        地獄拉麵<br>
+                                        精製熬煮豚骨高湯與山椒、豆瓣醬、唐辛子的組合，就是辣到夠味。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -813,8 +805,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        味噌拉麵<br>
+                                        使用白味噌和紅味噌的平衡搭配，再配合煮干昆布熬煮的高湯提鮮而成，湯頭香濃尾韻回甘。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -832,8 +824,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        名古屋台灣拉麵<br>
+                                        台灣擔仔麵與以極端辛辣口味呈現，已成為名古屋當地特色拉麵。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -865,8 +857,10 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        干貝豚骨拉麵<br>
+                                        史上最奢侈的極品拉麵口味，<br>
+                                        干貝的甜味與豚骨濃厚口感組合，<br>
+                                        集合海陸精華湯頭豐富令人回味無窮。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -885,8 +879,8 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        蛤蜊拉麵N<br>
+                                        使用鮮甜的干貝、昆布與雞湯搭配，加上蛤蜊的豐富奢侈組合，絕對不要錯過。
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -919,8 +913,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       大蒜地獄豚骨烏龍麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -939,8 +932,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        大蒜豚骨拉麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -959,8 +951,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       胡麻冷麵
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -993,8 +984,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        黑咖哩雞排飯
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1013,8 +1003,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        黑咖哩豬排飯
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1033,8 +1022,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       唐揚豬排丼飯
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1053,8 +1041,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       照燒雞排丼飯
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1073,8 +1060,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        東京麻婆豆腐激辛丼
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1093,8 +1079,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        小山炭燒豬肉丼
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1127,8 +1112,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        清甜南蠻醬汁
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1147,8 +1131,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        辣味增蔬菜
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1167,8 +1150,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        秘制甜辣醬汁
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1201,8 +1183,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       味噌蔬菜
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1221,8 +1202,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        名古屋辣肉炸飯糰
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1241,8 +1221,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        川燙蔬菜
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1261,8 +1240,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        特製豬排
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1281,8 +1259,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        和風胡麻豆腐
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1301,8 +1278,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        照燒雞排
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1335,8 +1311,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        帝王蟹肉棒
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1355,8 +1330,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        竹輪
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1375,8 +1349,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        酥炸杏鮑菇
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1395,8 +1368,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        特製大豬排
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1415,8 +1387,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        唐揚雞腿排
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1435,8 +1406,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        唐揚叻沙雞腿排
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1455,8 +1425,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        甜不辣
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1475,8 +1444,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       艾曼塔起司薯條
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1495,8 +1463,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        起士牛肉可樂
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1515,8 +1482,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        酥皮豆腐
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1535,8 +1501,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       和風日式炸雞
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1571,8 +1536,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                       鮮奶酪
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
@@ -1591,8 +1555,7 @@
                                 <!--引用菜單介紹中間的區塊-->
                                 <div class="card-body">
                                     <p class="card-text">
-                                        This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.
+                                        100%蘋果汁
                                     </p>
                                     <div class="d-flex justify-content-between align-items-center">
                                     </div>
