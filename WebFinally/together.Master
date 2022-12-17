@@ -14,6 +14,8 @@
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="usecss/totalstyle.css" rel="stylesheet">
     <link href="usecss/style-tab.css" rel="stylesheet">
+    <link href="usecss/header.css" rel="stylesheet">
+    <link href="usecss/carousel.css" rel="stylesheet">
     <link href="usecss/grid.css" rel="stylesheet">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -37,11 +39,11 @@
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">首頁</a></li>
-                <li class="nav-item"><a href="menu.html" class="nav-link">菜單介紹</a></li>
-                <li class="nav-item"><a href="customer.html" class="nav-link">客戶服務</a></li>
-                <li class="nav-item"><a href="point.html" class="nav-link">全台據點</a></li>
-                <li class="nav-item"><a href="information.html" class="nav-link">回饋總攬</a></li>
+                <li class="nav-item"><a href="index.aspx" class="nav-link" aria-current="page">首頁</a></li>
+                <li class="nav-item"><a href="menus.aspx" class="nav-link">菜單介紹</a></li>
+                <li class="nav-item"><a href="customer.aspx" class="nav-link">客戶服務</a></li>
+                <li class="nav-item"><a href="point.aspx" class="nav-link">全台據點</a></li>
+                <li class="nav-item"><a href="information.aspx" class="nav-link">回饋總攬</a></li>
             </ul>
         </header>
     </div>
@@ -66,11 +68,11 @@
                 </a>
 
                 <ul class="nav col-md-4 justify-content-end">
-                    <li class="nav-item"><a href="index1.html" class="nav-link px-2 text-muted">首頁</a></li>
-                    <li class="nav-item"><a href="menuUseThis.html" class="nav-link px-2 text-muted">菜單介紹</a></li>
-                    <li class="nav-item"><a href="customer use.html" class="nav-link px-2 text-muted">客戶服務</a></li>
-                    <li class="nav-item"><a href="point1216.html" class="nav-link px-2 text-muted">全台據點</a></li>
-                    <li class="nav-item"><a href="sw.html" class="nav-link px-2 text-muted">回饋總攬</a></li>
+                    <li class="nav-item"><a href="index.aspx" class="nav-link px-2 text-muted">首頁</a></li>
+                    <li class="nav-item"><a href="menus.aspx" class="nav-link px-2 text-muted">菜單介紹</a></li>
+                    <li class="nav-item"><a href="customer.aspx" class="nav-link px-2 text-muted">客戶服務</a></li>
+                    <li class="nav-item"><a href="point.aspx" class="nav-link px-2 text-muted">全台據點</a></li>
+                    <li class="nav-item"><a href="information.aspx" class="nav-link px-2 text-muted">回饋總攬</a></li>
                 </ul>
             </footer>
         </div>
