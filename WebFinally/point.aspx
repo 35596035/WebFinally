@@ -26,10 +26,13 @@
         <div id="tab">
             <ul>
                 <li><a href="#tab-1">北部</a></li>
-                <li>abc</li>
+                <li><a>|</a></li>
                 <li><a href="#tab-2">中部</a></li>
+                <li><a>|</a></li>
                 <li><a href="#tab-3">南部</a></li>
+                <li><a>|</a></li>
                 <li><a href="#tab-4">東部</a></li>
+                <li><a>|</a></li>
                 <li><a href="#tab-5">離島</a></li>
             </ul>
 
