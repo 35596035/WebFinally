@@ -18,6 +18,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
         <title></title>
+        <style></style>
     </asp:ContentPlaceHolder>
 </head>
 <body>
