@@ -194,6 +194,7 @@
     <Content Include="img\news\s_2205311723210000001.jpg" />
     <Content Include="img\news\s_2206031424400000001.jpg" />
     <Content Include="img\news\s_2209082206170000001.jpg" />
+    <Content Include="index.aspx" />
     <Content Include="menus.aspx" />
     <Content Include="point.aspx" />
     <Content Include="usecss\carousel.css" />
@@ -215,6 +216,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="menus.aspx.cs">
       <DependentUpon>menus.aspx</DependentUpon>
