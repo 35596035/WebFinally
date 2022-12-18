@@ -4,18 +4,18 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.104.2">
-  <title>Headers · Bootstrap v5.2</title>
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
-  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="usecss/form-validation.css" rel="stylesheet">
-  <link href="usecss/totalstyle.css" rel="stylesheet">
-  <link href="usecss/headers.css" rel="stylesheet">
-  <link href="usecss/carousel.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Headers · Bootstrap v5.2</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/headers/">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="usecss/form-validation.css" rel="stylesheet">
+    <link href="usecss/totalstyle.css" rel="stylesheet">
+    <link href="usecss/headers.css" rel="stylesheet">
+    <link href="usecss/carousel.css" rel="stylesheet">
 </head>
 <body>
     <form id="form1" runat="server">
@@ -51,17 +51,51 @@
                 <div class="container">
                     <div class="row g-5">
                         <div class="col-md-7 col-lg-8">
-                            <h4 class="mb-3">Billing address</h4>
+                            <h4 class="mb-3">聯絡客服服務</h4>
+                            <h6 class="mb-3">Email:YWON921219@YAHOO.COM.TW</h6>
+                            <h6 class="mb-3">Phone:(07)799-8999</h6>
+                            <h5 class="mb-3">對於我們有任何建議與指教歡迎利用下面表單告訴我們，謝謝。</h5>
                             <form class="needs-validation" novalidate>
                                 <div class="row g-3">
                                     <div class="col-sm-6">
-                                        <label for="firstName" class="form-label">First
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="請輸入" ControlToValidate="TextBox1"></asp:RequiredFieldValidator>
+                                        <label for="Name" class="form-label">姓名</label>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="TextBox1" ForeColor="Red"></asp:RequiredFieldValidator>
                                         </br>
                                         <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
+                                    <div class="col-sm-6">
+                                        <label for="Phone" class="form-label">電話</label>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="TextBox2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        </br>
+                                        <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="email" class="form-label">Email</label>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="TextBox3" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        </br>
+                                        <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="country" class="form-label">區域</label>
+                                        <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-select"></asp:DropDownList>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="state" class="form-label">縣市</label>
+                                        <asp:DropDownList ID="DropDownList2" runat="server" CssClass="form-select"></asp:DropDownList>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="state" class="form-label">分店名稱</label>
+                                        <asp:DropDownList ID="DropDownList3" runat="server" CssClass="form-select"></asp:DropDownList>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="mail" class="form-label">問題與回饋</label>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="請填入問題與回饋" ControlToValidate="Comment" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        </br>
+                                        <asp:TextBox ID="Comment" TextMode="MultiLine" Columns="50" Rows="5" runat="server" CssClass="form-control"></asp:TextBox>
+                                    </div>
+                                </div>
                                 <hr class="my-4">
-                                <asp:Button ID="Button1" runat="server" Text="Continue to checkout" Cssclass="w-100 btn btn-primary btn-lg"/>
+                                <asp:Button ID="Button1" runat="server" Text="送出訊息" CssClass="w-100 btn btn-primary btn-lg" />
                             </form>
                         </div>
                     </div>
