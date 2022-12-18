@@ -74,6 +74,7 @@
     <Content Include="assets\dist\js\bootstrap.bundle.min.js" />
     <Content Include="customer.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="img\123.png" />
     <Content Include="img\adrv\1811011209420000001.jpg" />
     <Content Include="img\adrv\1811012304380000001.jpg" />
     <Content Include="img\adrv\1812311514260000001.jpg" />

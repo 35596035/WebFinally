@@ -21,15 +21,15 @@
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
                         <defs>
-                            <pattern id="a1" height="100%" width="100%" patternConterUnits="objectBoundingBox">
-                                <image x="0" y="0" height="1097px" width="1920px" preserveAspectRadio="none"
-                                    xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="img/main-hero-img1.jpg" />
+                            <pattern id="ab" height="100%" width="100%" patternConterUnits="objectBoundingBox">
+                                <image x="0" y="-200" height="1097px" width="1920px" preserveAspectRadio="none"
+                                    xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="img/123.jpg" />
                                 <!--背景圖層(是固定不動的)-->
                             </pattern>
                         </defs>
-                        <rect width="100%" height="100%" fill="url(#a1)" />
+                        <rect width="100%" height="100%" fill="url(#ab)" />
                         <!--背景顏色-->
-                        <image xlink:href="img/main-hero-img3.jpg" x="0" y="0" height="100%" width="100%" />
+                        <image xlink:href="img/main-hero-img4.jpg" x="0" y="0" height="100%" width="100%" />
                         <!--背景圖片-->
                     </svg>
                     <div class="container">
@@ -44,8 +44,16 @@
                 <div class="carousel-item">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#777" />
-                        <image xlink:href="img/main-hero-img1.jpg" x="0" y="0" height="100%" width="100%" />
+                         <defs>
+                            <pattern id="ac" height="100%" width="100%" patternConterUnits="objectBoundingBox">
+                                <image x="0" y="-200" height="1097px" width="1920px" preserveAspectRadio="none"
+                                    xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="img/123.jpg" />
+                                <!--背景圖層(是固定不動的)-->
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#ac)" />
+                        <!--背景顏色-->
+                        <image xlink:href="img/main-hero-img5.jpg" x="0" y="0" height="100%" width="100%" />
                         <!--背景圖片-->
                     </svg>
                     <div class="container">
@@ -60,7 +68,16 @@
                 <div class="carousel-item">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#777" />
+                         <defs>
+                            <pattern id="ad" height="100%" width="100%" patternConterUnits="objectBoundingBox">
+                                <image x="0" y="-200" height="1097px" width="1920px" preserveAspectRadio="none"
+                                    xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="img/123.jpg" />
+                                <!--背景圖層(是固定不動的)-->
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#ad)" />
+                        <!--背景顏色-->
+                        <image xlink:href="img/main-hero-img6.jpg" x="0" y="0" height="100%" width="100%" />
                     </svg>
                     <div class="container">
                         <div class="carousel-caption text-end">
@@ -74,8 +91,16 @@
                 <div class="carousel-item">
                     <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
                         preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <rect width="100%" height="100%" fill="#777" />
-                        <image xlink:href="img/main-hero-img3.jpg" x="0" y="0" height="100%" width="100%" />
+                         <defs>
+                            <pattern id="ae" height="100%" width="100%" patternConterUnits="objectBoundingBox">
+                                <image x="0" y="-200" height="1097px" width="1920px" preserveAspectRadio="none"
+                                    xmlns:xlink="http://www.w3.org/2000/svg" xlink:href="img/123.jpg" />
+                                <!--背景圖層(是固定不動的)-->
+                            </pattern>
+                        </defs>
+                        <rect width="100%" height="100%" fill="url(#ae)" />
+                        <!--背景顏色-->
+                        <image xlink:href="img/main-hero-img7.jpg" x="0" y="0" height="100%" width="100%" />
                         <!--背景圖片-->
                     </svg>
                     <div class="container">
