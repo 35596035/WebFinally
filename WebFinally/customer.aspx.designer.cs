@@ -78,31 +78,31 @@ namespace WebFinally
         protected global::System.Web.UI.WebControls.TextBox TextBox3;
 
         /// <summary>
-        /// DropDownList1 控制項。
+        /// ddl_Area 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_Area;
 
         /// <summary>
-        /// DropDownList2 控制項。
+        /// ddl_County 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_County;
 
         /// <summary>
-        /// DropDownList3 控制項。
+        /// ddl_Plane 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_Plane;
 
         /// <summary>
         /// RequiredFieldValidator4 控制項。

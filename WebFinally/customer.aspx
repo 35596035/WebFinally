@@ -52,8 +52,8 @@
                     <div class="row g-5">
                         <div class="col-md-7 col-lg-8">
                             <h4 class="mb-3">聯絡客服服務</h4>
-                            <h6 class="mb-3">Email:YWON921219@YAHOO.COM.TW</h6>
                             <h6 class="mb-3">Phone:(07)799-8999</h6>
+                            <h6 class="mb-3">Email:YWON921219@YAHOO.COM.TW</h6>
                             <h5 class="mb-3">對於我們有任何建議與指教歡迎利用下面表單告訴我們，謝謝。</h5>
                             <form class="needs-validation" novalidate>
                                 <div class="row g-3">
@@ -77,15 +77,15 @@
                                     </div>
                                     <div class="col-12">
                                         <label for="country" class="form-label">區域</label>
-                                        <asp:DropDownList ID="DropDownList1" runat="server" CssClass="form-select"></asp:DropDownList>
+                                        <asp:DropDownList ID="ddl_Area" runat="server" CssClass="form-select" OnSelectedIndexChanged="ddl_Area_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="state" class="form-label">縣市</label>
-                                        <asp:DropDownList ID="DropDownList2" runat="server" CssClass="form-select"></asp:DropDownList>
+                                        <asp:DropDownList ID="ddl_County" runat="server" CssClass="form-select" OnSelectedIndexChanged="ddl_County_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="state" class="form-label">分店名稱</label>
-                                        <asp:DropDownList ID="DropDownList3" runat="server" CssClass="form-select"></asp:DropDownList>
+                                        <asp:DropDownList ID="ddl_Plane" runat="server" CssClass="form-select"></asp:DropDownList>
                                     </div>
                                     <div class="col-12">
                                         <label for="mail" class="form-label">問題與回饋</label>
