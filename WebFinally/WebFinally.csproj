@@ -282,6 +282,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <Content Include="WebDocument.md" />
+    <Content Include="ChiuDocument.md" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
