@@ -20,7 +20,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <body class="bg-light" class="py-4">
+            <body class="bg-light">
                 <!--title Start-->
                 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
                 </svg>
@@ -59,21 +59,21 @@
                                 <div class="row g-3">
                                     <div class="col-sm-6">
                                         <label for="Name" class="form-label">姓名</label>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="TextBox1" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Name" ForeColor="Red"></asp:RequiredFieldValidator>
                                         </br>
-                                        <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control"></asp:TextBox>
+                                        <asp:TextBox ID="tb_Name" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="Phone" class="form-label">電話</label>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="TextBox2" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Phone" ForeColor="Red"></asp:RequiredFieldValidator>
                                         </br>
-                                        <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control"></asp:TextBox>
+                                        <asp:TextBox ID="tb_Phone" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
                                     <div class="col-12">
                                         <label for="email" class="form-label">Email</label>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="TextBox3" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Email" ForeColor="Red"></asp:RequiredFieldValidator>
                                         </br>
-                                        <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control"></asp:TextBox>
+                                        <asp:TextBox ID="tb_Email" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
                                     <div class="col-12">
                                         <label for="country" class="form-label">區域</label>
@@ -88,14 +88,14 @@
                                         <asp:DropDownList ID="ddl_Plane" runat="server" CssClass="form-select"></asp:DropDownList>
                                     </div>
                                     <div class="col-12">
-                                        <label for="mail" class="form-label">問題與回饋</label>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="請填入問題與回饋" ControlToValidate="Comment" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <label for="mail" class="form-label">問題或建議</label>
+                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="請填入問題與回饋" ControlToValidate="tb_Txt" ForeColor="Red"></asp:RequiredFieldValidator>
                                         </br>
-                                        <asp:TextBox ID="Comment" TextMode="MultiLine" Columns="50" Rows="5" runat="server" CssClass="form-control"></asp:TextBox>
+                                        <asp:TextBox ID="tb_Txt" TextMode="MultiLine" Columns="50" Rows="5" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
                                 </div>
                                 <hr class="my-4">
-                                <asp:Button ID="Button1" runat="server" Text="送出訊息" CssClass="w-100 btn btn-primary btn-lg" />
+                                <asp:Button ID="btn_Insert" runat="server" Text="送出訊息" CssClass="w-100 btn btn-primary btn-lg" OnClick="btn_Insert_Click" />
                             </form>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                 <!--footer Start-->
                 <div class="container">
                     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-                        <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+                        <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc Company, Inc Company, Inc</p>
 
                         <a href="/"
                             class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">

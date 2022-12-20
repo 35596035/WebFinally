@@ -196,6 +196,7 @@
     <Content Include="img\news\s_2206031424400000001.jpg" />
     <Content Include="img\news\s_2209082206170000001.jpg" />
     <Content Include="index.aspx" />
+    <Content Include="information.aspx" />
     <Content Include="menus.aspx" />
     <Content Include="point.aspx" />
     <Content Include="usecss\carousel.css" />
@@ -225,6 +226,13 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="information.aspx.cs">
+      <DependentUpon>information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="information.aspx.designer.cs">
+      <DependentUpon>information.aspx</DependentUpon>
+    </Compile>
     <Compile Include="menus.aspx.cs">
       <DependentUpon>menus.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -252,6 +260,7 @@
     <Content Include="assets\dist\css\bootstrap.min.css.map" />
     <Content Include="assets\dist\css\bootstrap.rtl.min.css.map" />
     <Content Include="assets\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Customer.bak" />
     <None Include="packages.config" />
     <Content Include="together.Master" />
     <None Include="Web.config.zongdev" />

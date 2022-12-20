@@ -1,7 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Configuration;
 using System.EnterpriseServices;
 using System.Linq;
+using System.Data;
+using System.Data.SqlClient;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -13,18 +17,23 @@ namespace WebFinally
         string[] sa_Area = new string[5] { "北部", "東部", "中部", "南部", "離島" };
         string[] sa_County = new string[21] { "基隆市", "台北市", "新北市", "桃園市", "宜蘭縣", "宜蘭市", "花蓮市", "台東市",
         "台中市", "苗栗縣", "彰化市", "彰化縣", "南投縣", "雲林縣", "嘉義縣", "嘉義市", "台南市", "高雄市", "屏東縣", "澎湖縣", "金門縣"};
+        ArrayList[] ala_Plane = new ArrayList[21];
         //string[][] sa_County = new string[5][];
         string[][] sa_Plane = new string[21][];
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            
             UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+            #region textbox 資料欄匯入
             //sa_County[0] = new string[] { "基隆市", "台北市", "新北市", "桃園市", "宜蘭縣", "宜蘭市"};
             //sa_County[1] = new string[] { "花蓮市", "台東市"};
             //sa_County[2] = new string[] { "台中市", "苗栗縣", "彰化市", "彰化縣", "南投縣", "雲林縣" };
             //sa_County[3] = new string[] { "嘉義縣", "嘉義市", "台南市", "高雄市", "屏東縣"};
             //sa_County[4] = new string[] { "澎湖縣", "金門縣"};
             sa_Plane[0] = new string[] { "海大店" };
+            ala_Plane[0] = new ArrayList();
+            ala_Plane[0].Add("海大店");
             sa_Plane[1] = new string[] { "關渡店" };
             sa_Plane[2] = new string[] { "重陽店", "板橋亞東店", "新屋店", "土城店", "新海店", "樹林店",
             "中和店", "蘆洲店", "蘆洲復興店", "三峽店", "淡水店", "板橋店", "八里店"};
@@ -52,17 +61,22 @@ namespace WebFinally
             sa_Plane[18] = new string[] { "東港店" };
             sa_Plane[19] = new string[] { "澎湖店" };
             sa_Plane[20] = new string[] { "金門店" };
+            #endregion
+
+            string s_str = ConfigurationManager.ConnectionStrings["WebSQL"].ConnectionString;
+            //Response.Write(s_str);
             if (!IsPostBack)
             {
-                for(int i_Ct = 0; i_Ct < sa_Area.Length; i_Ct++)
+                SqlConnection o_Str = new SqlConnection(s_str);
+                o_Str.Open();
+                o_Str.Close();
+                for (int i_Ct = 0; i_Ct < sa_Area.Length; i_Ct++)
                 {
                     ListItem o_L = new ListItem();
                     o_L.Text = o_L.Value = sa_Area[i_Ct];
                     ddl_Area.Items.Add(o_L);
                 }
                 Add_saArea();
-                Response.Write(ddl_County.SelectedIndex);
-                Add_saCounty();
             }
         }
 
@@ -119,6 +133,7 @@ namespace WebFinally
                     ddl_County.Items.Add(o_L);
                 }
             }
+            Add_saStore();
             //for (int i_Ct = 0; i_Ct < 6; i_Ct++)
             //{
             //    ListItem o_L = new ListItem();
@@ -129,10 +144,10 @@ namespace WebFinally
 
         protected void ddl_County_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Add_saCounty();
+            Add_saStore();
         }
 
-        protected void Add_saCounty()
+        protected void Add_saStore()
         {
             int i_county = ddl_County.SelectedIndex;
             int a = ddl_Area.SelectedIndex;
@@ -188,6 +203,37 @@ namespace WebFinally
             //    o_L.Text = o_L.Value = sa_Plane[i_county][i_Ct];
             //    ddl_Plane.Items.Add(o_L);
             //}
+        }
+
+        protected void btn_Insert_Click(object sender, EventArgs e)
+        {
+            string s_str = ConfigurationManager.ConnectionStrings["WebSQL"].ConnectionString;
+            try
+            {
+                SqlConnection o_Str = new SqlConnection(s_str);
+                o_Str.Open();
+                SqlCommand o_cmd = new SqlCommand("Insert into Cus(Name, PhoneNum, Email, Area, County, Plane, Text)" + "values(@Name, @PhoneNum, @Email, @Area, @County, @Plane, @Text)", o_Str);
+                o_cmd.Parameters.Add("@Name", SqlDbType.NVarChar, 50);
+                o_cmd.Parameters["@Name"].Value = tb_Name.Text;
+                o_cmd.Parameters.Add("@PhoneNum", SqlDbType.NChar, 10);
+                o_cmd.Parameters["@PhoneNum"].Value = tb_Phone.Text;
+                o_cmd.Parameters.Add("@Email", SqlDbType.NVarChar, 50);
+                o_cmd.Parameters["@Email"].Value = tb_Email.Text;
+                o_cmd.Parameters.Add("@Area", SqlDbType.NVarChar, 10);
+                o_cmd.Parameters["@Area"].Value = ddl_Area.Text;
+                o_cmd.Parameters.Add("@County", SqlDbType.NVarChar, 10);
+                o_cmd.Parameters["@County"].Value = ddl_County.Text;
+                o_cmd.Parameters.Add("@Plane", SqlDbType.NVarChar, 10);
+                o_cmd.Parameters["@Plane"].Value = ddl_Plane.Text;
+                o_cmd.Parameters.Add("@Text", SqlDbType.NVarChar, 50);
+                o_cmd.Parameters["@Text"].Value = tb_Txt.Text;
+                o_cmd.ExecuteNonQuery();
+                o_Str.Close();
+            }
+            catch (Exception ex)
+            {
+                Response.Write(ex.ToString());
+            }
         }
     }
 }
