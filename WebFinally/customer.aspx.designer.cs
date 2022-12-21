@@ -24,13 +24,22 @@ namespace WebFinally
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// RequiredFieldValidator1 控制項。
+        /// rfv_Name 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_Name;
+
+        /// <summary>
+        /// rev_Name 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev_Name;
 
         /// <summary>
         /// tb_Name 控制項。
@@ -42,13 +51,22 @@ namespace WebFinally
         protected global::System.Web.UI.WebControls.TextBox tb_Name;
 
         /// <summary>
-        /// RequiredFieldValidator2 控制項。
+        /// rfv_Phone 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_Phone;
+
+        /// <summary>
+        /// rev_Phone 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev_Phone;
 
         /// <summary>
         /// tb_Phone 控制項。
@@ -60,13 +78,22 @@ namespace WebFinally
         protected global::System.Web.UI.WebControls.TextBox tb_Phone;
 
         /// <summary>
-        /// RequiredFieldValidator3 控制項。
+        /// rfv_Email 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfv_Email;
+
+        /// <summary>
+        /// rev_Email 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev_Email;
 
         /// <summary>
         /// tb_Email 控制項。

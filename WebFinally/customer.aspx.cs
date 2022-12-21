@@ -215,7 +215,7 @@ namespace WebFinally
                 SqlCommand o_cmd = new SqlCommand("Insert into Cus(Name, PhoneNum, Email, Area, County, Plane, Text)" + "values(@Name, @PhoneNum, @Email, @Area, @County, @Plane, @Text)", o_Str);
                 o_cmd.Parameters.Add("@Name", SqlDbType.NVarChar, 50);
                 o_cmd.Parameters["@Name"].Value = tb_Name.Text;
-                o_cmd.Parameters.Add("@PhoneNum", SqlDbType.NChar, 10);
+                o_cmd.Parameters.Add("@PhoneNum", SqlDbType.NVarChar, 50);
                 o_cmd.Parameters["@PhoneNum"].Value = tb_Phone.Text;
                 o_cmd.Parameters.Add("@Email", SqlDbType.NVarChar, 50);
                 o_cmd.Parameters["@Email"].Value = tb_Email.Text;
@@ -234,6 +234,10 @@ namespace WebFinally
             {
                 Response.Write(ex.ToString());
             }
+            tb_Name.Text = "";
+            tb_Phone.Text = "";
+            tb_Email.Text = "";
+            tb_Txt.Text = "";
         }
     }
 }

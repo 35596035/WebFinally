@@ -1,10 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/together.Master" AutoEventWireup="true" CodeBehind="information.aspx.cs" Inherits="WebFinally.information" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style>
+        .inf{
+            width:100%;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <form id="form1" runat="server">
-        <div>
-            <asp:Button runat="server" Text="Button" ID="btn_Insert" />
+        <div class="container">
+            <input class="btn btn-outline-secondary" type="button" value="重新整理" onclick="location.href='information.aspx'">
             <asp:SqlDataSource ID="sds_Cus" runat="server" ConnectionString="<%$ ConnectionStrings:WebCusSql %>" DeleteCommand="DELETE FROM [Cus] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Cus] ([Name], [PhoneNum], [Email], [Area], [County], [Plane], [Text]) VALUES (@Name, @PhoneNum, @Email, @Area, @County, @Plane, @Text)" SelectCommand="SELECT * FROM [Cus]" UpdateCommand="UPDATE [Cus] SET [Name] = @Name, [PhoneNum] = @PhoneNum, [Email] = @Email, [Area] = @Area, [County] = @County, [Plane] = @Plane, [Text] = @Text WHERE [Id] = @Id">
                 <DeleteParameters>
                     <asp:Parameter Name="Id" Type="Int32" />
@@ -29,7 +34,17 @@
                     <asp:Parameter Name="Id" Type="Int32" />
                 </UpdateParameters>
             </asp:SqlDataSource>
-            <asp:GridView runat="server" ID="gv_Show" DataSourceID="sds_Cus" AllowPaging="True" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" PageSize="5" PagerSettings-FirstPageText="第一頁" AllowSorting="True">
+            <asp:GridView runat="server" ID="gv_Show" DataSourceID="sds_Cus" AllowPaging="True" BackColor="White" BorderColor="#336666" BorderStyle="Double" BorderWidth="3px" CellPadding="4" GridLines="Horizontal" PageSize="5" PagerSettings-FirstPageText="第一頁" AllowSorting="True" CssClass="inf" AutoGenerateColumns="False">
+                <Columns>
+                    <asp:BoundField DataField="Id" HeaderText="Id" InsertVisible="False" ReadOnly="True" SortExpression="Id" />
+                    <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
+                    <asp:BoundField DataField="PhoneNum" HeaderText="PhoneNum" SortExpression="PhoneNum" />
+                    <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" />
+                    <asp:BoundField DataField="Area" HeaderText="Area" SortExpression="Area" />
+                    <asp:BoundField DataField="County" HeaderText="County" SortExpression="County" />
+                    <asp:BoundField DataField="Plane" HeaderText="Plane" SortExpression="Plane" />
+                    <asp:BoundField DataField="Text" HeaderText="Text" SortExpression="Text" />
+                </Columns>
                 <FooterStyle BackColor="White" ForeColor="#333333" />
                 <HeaderStyle BackColor="#336666" Font-Bold="True" ForeColor="White" />
                 <PagerSettings Mode="NextPreviousFirstLast" LastPageText="最後一頁" NextPageText="下一頁" PreviousPageText="上一頁" />

@@ -59,19 +59,22 @@
                                 <div class="row g-3">
                                     <div class="col-sm-6">
                                         <label for="Name" class="form-label">姓名</label>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Name" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RequiredFieldValidator ID="rfv_Name" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Name" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator ID="rev_Name" runat="server" ErrorMessage="不符合格式" ControlToValidate="tb_Name" ForeColor="Maroon" ValidationExpression="\w{1,4}$"></asp:RegularExpressionValidator>
                                         </br>
                                         <asp:TextBox ID="tb_Name" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="Phone" class="form-label">電話</label>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Phone" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RequiredFieldValidator ID="rfv_Phone" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Phone" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator ID="rev_Phone" runat="server" ErrorMessage="不符合格式" ControlToValidate="tb_Phone" ForeColor="Maroon" ValidationExpression="^09\d{2}-\d{3}-\d{3}$"></asp:RegularExpressionValidator>
                                         </br>
                                         <asp:TextBox ID="tb_Phone" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
                                     <div class="col-12">
                                         <label for="email" class="form-label">Email</label>
-                                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Email" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RequiredFieldValidator ID="rfv_Email" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Email" ForeColor="Red"></asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator ID="rev_Email" runat="server" ErrorMessage="不符合格式" ControlToValidate="tb_Email" ForeColor="Maroon" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                                         </br>
                                         <asp:TextBox ID="tb_Email" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
