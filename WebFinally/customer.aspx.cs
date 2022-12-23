@@ -234,10 +234,13 @@ namespace WebFinally
             {
                 Response.Write(ex.ToString());
             }
-            tb_Name.Text = "";
-            tb_Phone.Text = "";
-            tb_Email.Text = "";
-            tb_Txt.Text = "";
+
+            //tb_Name.Text = "";
+            //tb_Phone.Text = "";
+            //tb_Email.Text = "";
+            //tb_Txt.Text = "";
+            Response.Redirect("https://localhost:44360/customer.aspx", false);
+            HttpContext.Current.ApplicationInstance.CompleteRequest();
         }
     }
 }

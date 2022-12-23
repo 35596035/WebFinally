@@ -60,7 +60,6 @@
                                     <div class="col-sm-6">
                                         <label for="Name" class="form-label">姓名</label>
                                         <asp:RequiredFieldValidator ID="rfv_Name" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Name" ForeColor="Red"></asp:RequiredFieldValidator>
-                                        <asp:RegularExpressionValidator ID="rev_Name" runat="server" ErrorMessage="不符合格式" ControlToValidate="tb_Name" ForeColor="Maroon" ValidationExpression="\w{1,4}$"></asp:RegularExpressionValidator>
                                         </br>
                                         <asp:TextBox ID="tb_Name" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
