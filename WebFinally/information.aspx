@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
         <div class="container">
             <input class="btn btn-outline-secondary" type="button" value="重新整理" onclick="location.href='information.aspx'">
-            <asp:SqlDataSource ID="sds_Cus" runat="server" ConnectionString="<%$ ConnectionStrings:WebCusSql %>" DeleteCommand="DELETE FROM [Cus] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Cus] ([Name], [PhoneNum], [Email], [Area], [County], [Plane], [Text]) VALUES (@Name, @PhoneNum, @Email, @Area, @County, @Plane, @Text)" SelectCommand="SELECT * FROM [Cus]" UpdateCommand="UPDATE [Cus] SET [Name] = @Name, [PhoneNum] = @PhoneNum, [Email] = @Email, [Area] = @Area, [County] = @County, [Plane] = @Plane, [Text] = @Text WHERE [Id] = @Id">
+            <%--<asp:SqlDataSource ID="sds_Cus" runat="server" ConnectionString="<%$ ConnectionStrings:WebCusSql %>" DeleteCommand="DELETE FROM [Cus] WHERE [Id] = @Id" InsertCommand="INSERT INTO [Cus] ([Name], [PhoneNum], [Email], [Area], [County], [Plane], [Text]) VALUES (@Name, @PhoneNum, @Email, @Area, @County, @Plane, @Text)" SelectCommand="SELECT * FROM [Cus]" UpdateCommand="UPDATE [Cus] SET [Name] = @Name, [PhoneNum] = @PhoneNum, [Email] = @Email, [Area] = @Area, [County] = @County, [Plane] = @Plane, [Text] = @Text WHERE [Id] = @Id">
                 <DeleteParameters>
                     <asp:Parameter Name="Id" Type="Int32" />
                 </DeleteParameters>
@@ -60,9 +60,9 @@
                 <SortedAscendingHeaderStyle BackColor="#487575" />
                 <SortedDescendingCellStyle BackColor="#E5E5E5" />
                 <SortedDescendingHeaderStyle BackColor="#275353" />
-            </asp:GridView>
+            </asp:GridView>--%>
             <br />
-<%--            <asp:GridView ID="gv_Show" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="inf" ForeColor="Black" GridLines="Vertical" >
+            <asp:GridView ID="gv_Show" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" CssClass="inf" ForeColor="Black" GridLines="Vertical" OnRowDeleting="GetData" >
                 <AlternatingRowStyle BackColor="White" />
                 <Columns>
                     <asp:TemplateField ShowHeader="False">
@@ -80,7 +80,7 @@
                 <SortedAscendingHeaderStyle BackColor="#848384" />
                 <SortedDescendingCellStyle BackColor="#EAEAD3" />
                 <SortedDescendingHeaderStyle BackColor="#575357" />
-            </asp:GridView>--%>
+            </asp:GridView>
         </div>
     </form>
 </asp:Content>
