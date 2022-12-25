@@ -65,6 +65,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <label for="Phone" class="form-label">電話</label>
+                                        <asp:Label ID="lb_ex" runat="server" Text="Label">(Ex:0123-456-789)</asp:Label>
                                         <asp:RequiredFieldValidator ID="rfv_Phone" runat="server" ErrorMessage="該欄位不可為空" ControlToValidate="tb_Phone" ForeColor="Red"></asp:RequiredFieldValidator>
                                         <asp:RegularExpressionValidator ID="rev_Phone" runat="server" ErrorMessage="不符合格式" ControlToValidate="tb_Phone" ForeColor="Maroon" ValidationExpression="^09\d{2}-\d{3}-\d{3}$"></asp:RegularExpressionValidator>
                                         </br>

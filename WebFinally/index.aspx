@@ -31,12 +31,14 @@
                     </h2>
                 </div>
             </div>
+            <div style="width: auto; height: 20px;"></div>
             <div class="col-md-13">
                 <div class="h-100 p-5 bg-light border rounded-3 bgoran">
                     <h2>豚將日本拉麵，是一家以提供消費者高品質且平價的日本拉麵為宗旨的日本拉麵店。</h2>
                 </div>
             </div>
         </div>
+        <div style="width: auto; height: 20px;"></div>
         <div class="row align-items-md-stretch">
             <div class="col-md-6">
                 <div class="h-100 p-5 text-bg-dark rounded-3 border" style="background-color: #9db8d3;">
@@ -62,6 +64,7 @@
                     </p>
                 </div>
             </div>
+            <div style="width: auto; height: 20px;"></div>
             <div class="col-md-13">
                 <div class="h-100 p-5 bg-light border rounded-3"
                     style="margin: auto; text-align: center; background-color: rgb(255, 198, 11);">
