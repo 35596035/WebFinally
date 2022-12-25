@@ -17,8 +17,6 @@ namespace WebFinally
         string[] sa_Area = new string[5] { "北部", "東部", "中部", "南部", "離島" };
         string[] sa_County = new string[21] { "基隆市", "台北市", "新北市", "桃園市", "宜蘭縣", "宜蘭市", "花蓮市", "台東市",
         "台中市", "苗栗縣", "彰化市", "彰化縣", "南投縣", "雲林縣", "嘉義縣", "嘉義市", "台南市", "高雄市", "屏東縣", "澎湖縣", "金門縣"};
-        ArrayList[] ala_Plane = new ArrayList[21];
-        //string[][] sa_County = new string[5][];
         string[][] sa_Plane = new string[21][];
 
         protected void Page_Load(object sender, EventArgs e)
@@ -32,8 +30,6 @@ namespace WebFinally
             //sa_County[3] = new string[] { "嘉義縣", "嘉義市", "台南市", "高雄市", "屏東縣"};
             //sa_County[4] = new string[] { "澎湖縣", "金門縣"};
             sa_Plane[0] = new string[] { "海大店" };
-            ala_Plane[0] = new ArrayList();
-            ala_Plane[0].Add("海大店");
             sa_Plane[1] = new string[] { "關渡店" };
             sa_Plane[2] = new string[] { "重陽店", "板橋亞東店", "新屋店", "土城店", "新海店", "樹林店",
             "中和店", "蘆洲店", "蘆洲復興店", "三峽店", "淡水店", "板橋店", "八里店"};
@@ -197,12 +193,6 @@ namespace WebFinally
                     ddl_Plane.Items.Add(o_L);
                 }
             }
-            //for (int i_Ct = 0; i_Ct < sa_Plane[i_county].GetLength(0); i_Ct++)
-            //{
-            //    ListItem o_L = new ListItem();
-            //    o_L.Text = o_L.Value = sa_Plane[i_county][i_Ct];
-            //    ddl_Plane.Items.Add(o_L);
-            //}
         }
 
         protected void btn_Insert_Click(object sender, EventArgs e)
@@ -234,11 +224,6 @@ namespace WebFinally
             {
                 Response.Write(ex.ToString());
             }
-
-            //tb_Name.Text = "";
-            //tb_Phone.Text = "";
-            //tb_Email.Text = "";
-            //tb_Txt.Text = "";
             Response.Redirect("https://localhost:44360/customer.aspx", false);
             HttpContext.Current.ApplicationInstance.CompleteRequest();
         }
